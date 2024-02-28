@@ -1,9 +1,12 @@
 package com.hoang.carmanageserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(
+    exclude = [DataSourceAutoConfiguration::class]
+)
 class CarManageServerApplication
 
 fun main(args: Array<String>) {
