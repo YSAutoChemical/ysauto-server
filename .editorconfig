@@ -1,0 +1,12 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+disabled_rules = no-wildcard-imports,import-ordering,comment-spacing
+출처: https://msyu1207.tistory.com/entry/깔끔한-포맷팅을-위한-ktlint-적용하기-feat-kotlin [로띠 로그:티스토리]
