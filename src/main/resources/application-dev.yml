@@ -1,1 +1,3 @@
-config: hi
+springdoc:
+    swagger-ui:
+        use-root-path: true
