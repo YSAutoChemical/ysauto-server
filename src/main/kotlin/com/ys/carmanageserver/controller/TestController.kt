@@ -1,5 +1,6 @@
 package com.ys.carmanageserver.controller
 
+import com.ys.carmanageserver.common.Logger
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
@@ -9,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController
 class TestController {
     @GetMapping("")
     fun hi() {
-        println("hi~")
+        Logger.logger.error("hi")
     }
 }
